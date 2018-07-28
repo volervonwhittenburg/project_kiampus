@@ -12,3 +12,4 @@
 */
 
 Route::get('/','LoginController@login');
+Route::get('/main', 'PageController@main');
