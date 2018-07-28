@@ -14,7 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/login', function () {
-    URL::asset('css/style.css');
-    return view('page/login');
-});
+// Route::get('/login', function () {
+//     URL::asset('css/style.css');
+//     return view('page/login');
+// });
+Route::get('/login','LoginController@login');
