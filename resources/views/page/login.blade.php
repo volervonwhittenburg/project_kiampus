@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>Login Form</title>
-    <link rel="STYLESHEET" href="<?php echo url()->full(); ?>/resources/assets/css/style.css" type="text/css" />
 </head>
 <body bgcolor="#00000f">
+    <input type="button" id="btn-iseng" value="Mengerikan">
     <table border="1">
         <tr>
             <td>
