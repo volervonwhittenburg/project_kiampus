@@ -14,5 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 
 Route::get('/main', 'pagecontroller@main');
+=======
+Route::get('/login', function () {
+    return view('page/login');
+});
+>>>>>>> 2075255b5d5806b702abdcdf721f6105db11676e
