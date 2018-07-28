@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="<?php echo URL::asset('css/style-login.css'); ?>" type="text/css" />
 </head>
 <body bgcolor="#020314">
+    <img src="<?php echo URL::asset('img/jpg/bg-1.jpg'); ?>" id="bg-login">
     <table id="tb-login">
         <tr>
             <td height="15%">
@@ -12,21 +13,21 @@
         </tr>
         <tr>
             <td align="center">
+            <img src="<?php echo URL::asset('img/png/logo-mi.png'); ?>" id="logo-mi">
                 <table id="tb-formlgn">
                 <form action="" method="">
                     <tr>
-                        <td>
+                        <td height="60px">
                             <input type="text" name="username" id="txt-username" class="txt-login" placeholder="Username" />
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td height="60px">
                             <input type="password" name="password" id="txt-password" class="txt-login" placeholder="Password" />
                         </td>
                     </tr>
                     <tr>
                         <td align="center">
-                            <br>
                             <input type="button" value="Login" id="btn-login" />
                         </td>
                     </tr>
