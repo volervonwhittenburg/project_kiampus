@@ -19,12 +19,29 @@
     border-bottom: 1px solid #FFF;
     color: #FFF;
 }
+.txt-login:focus {
+    border-bottom: 1px solid #e84752;
+}
 #btn-login {
     width: 100%;
-    height: 60px;
+    height: 50px;
     padding: 10px;
     font-family: Century Gothic;
-    background: #474747;
-    border: none;
+    background: transparent;
+    border: 1px solid #FFF;
     color: #FFF;
+    cursor: pointer;
+}
+#btn-login:hover {
+    opacity: 0.5;
+}
+#bg-login {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -10;
+}
+#logo-mi {
+    width: 150px;
 }
